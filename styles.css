@@ -1,0 +1,110 @@
+/* Global Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+    line-height: 1.6;
+    background-color: #f9f9f9; /* Default light background */
+}
+
+/* Navigation Bar Styles */
+nav {
+    background-color: #0073e6; /* Blue background */
+    padding: 10px 0;
+    text-align: center;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+}
+
+nav ul li {
+    margin: 0 15px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    font-weight: bold;
+    color: white;
+}
+
+nav ul li a:hover {
+    color: #ffdd57; /* Golden Yellow */
+}
+
+/* Homepage Styles */
+.home-header {
+    background-color: #FF6347; /* Tomato */
+    text-align: center;
+    padding: 20px;
+    color: white;
+}
+
+.home-paragraph {
+    background-color: #add8e6; /* Light Blue */
+    padding: 15px;
+    border-radius: 5px;
+    text-align: center;
+}
+
+/* About Me Page Styles */
+.about-header {
+    background-color: #0073e6; /* Blue */
+    text-align: center;
+    color: white;
+    padding: 20px;
+}
+
+.intro-paragraph {
+    background-color: #FF6347; /* Tomato */
+    color: white;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.hobby-paragraph {
+    background-color: #4682B4; /* Steel Blue */
+    color: white;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+/* Contact Me Page Styles */
+.contact-form-title {
+    color: black;
+    text-align: center;
+}
+
+form label {
+    font-weight: bold;
+    display: block;
+    margin-bottom: 5px;
+}
+
+.name-label {
+    color: #FF6347; /* Tomato */
+}
+
+.email-label {
+    color: #0073e6; /* Blue */
+}
+
+.subject-label {
+    color: #32CD32; /* Lime Green */
+}
+
+.message-label {
+    color: #FFA500; /* Orange */
+}
+
+form input[type="text"], form input[type="email"], form textarea {
+    width: 100%;
+    padding: 10px;
+    border-radius: 4px;
+    border: 1px solid #ccc;
+    margin-bottom: 15px;
+    background-color: #f0f8ff;
+}
